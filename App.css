@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  margin-left: 10px;
+}

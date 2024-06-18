@@ -10,6 +10,8 @@
 2.Install the dependencies:
       npm install
 3.Create a .env file in the server directory with your PostgreSQL credentials:
+
+
       PGUSER=your-username
      PGHOST=localhost
      PGDATABASE=your-database
